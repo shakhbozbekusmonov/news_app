@@ -1,0 +1,27 @@
+# Ignore Python bytecode files
+__pycache__/
+
+# Ignore environment-specific settings files
+.env
+
+# Ignore database files
+db.sqlite3
+
+# Ignore media files (if you're using Django's MEDIA_ROOT)
+media/
+
+# Ignore static files (if you're using Django's STATIC_ROOT)
+static/
+
+# Ignore IDE or editor-specific files
+.vscode/
+.idea/
+.pyc
+.pyo
+.vscode/
+.DS_Store
+*.pyc
+*.pyo
+
+# env secret files
+.env
