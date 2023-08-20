@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>News detail page</title>
+</head>
+<body>
+<h1>{{ news.title }}</h1>
+<p>Publish time: {{ news.publish_time }}</p>
+<p>{{ news.body | linebreaks }}</p>
+<a href="{% url 'all_news_list' %}">👈</a>
+</body>
+</html>
